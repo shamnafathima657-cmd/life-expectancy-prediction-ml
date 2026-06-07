@@ -29,10 +29,15 @@ life_expectancy_years
 ### Dataset Information
 
 Dataset Source :	Kaggle
+
 Domain	: Global Poverty & Economic Inequality
+
 Rows : 25
+
 Columns : 10000
+
 Problem Type :	Regression
+
 Target Variable	: life_expectancy_years
 
 ### Exploratory Data Analysis (EDA)
@@ -90,7 +95,9 @@ The SVR model achieved the best overall performance with the highest R² score a
 
 Hyperparameter tuning was performed using GridSearchCV to optimize:
 C
+
 Kernel
+
 Gamma
 
 
@@ -108,8 +115,11 @@ life_expectancy_pipeline.pkl
 ### Streamlit Deployment
 A Streamlit web application was developed for real-time predictions.
 Users can:
+
 Enter socioeconomic indicators
+
 Submit inputs
+
 Receive instant life expectancy predictions
 
 #### Run Application
